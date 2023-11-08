@@ -52,6 +52,7 @@ namespace FixMaster.Controllers
             }
 
             // Update only the fields that are provided in the update model
+            //test comment
             if (!string.IsNullOrEmpty(updateModel.serviceName))
             {
                 booking.serviceName = updateModel.serviceName;
